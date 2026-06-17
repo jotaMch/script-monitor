@@ -1,8 +1,8 @@
 {
   "compilerOptions": {
     "target": "es2022",
-    "module": "nodenext",                     // Atualizado junto com o de baixo
-    "moduleResolution": "nodenext",           // Faz a dupla perfeita sem avisos
+    "module": "nodenext",                     
+    "moduleResolution": "nodenext",           
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     "strict": true,
