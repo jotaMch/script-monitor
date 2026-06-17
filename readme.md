@@ -1,11 +1,5 @@
 # 🚀 TT Burger - Agente Multi-Monitoramento de Infraestrutura
 
-Este projeto é um agente de monitoramento assíncrono e leve, desenvolvido em **TypeScript/Node.js**, projetado para rodar em segundo plano nas máquinas dos caixas (PDV) das filiais do TT Burger (Arpoador, Botafogo, Leblon, Barra, Tijuca). 
-
-O agente avalia de forma simultânea a saúde da conexão externa (Internet) e o status dos equipamentos críticos da rede local (LAN), reportando os dados consolidados em tempo real para a **API Central de Monitoramento**.
-
----
-
 ## 🛠️ Principais Funcionalidades
 
 * **Arquitetura Modular (Clean Code):** Separação estrita de responsabilidades em arquivos dedicados (`config`, `services`, `types`), facilitando manutenções futuras e isolamento de regras de negócio.
