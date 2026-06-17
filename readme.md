@@ -2,7 +2,7 @@
 
 ## 🛠️ Principais Funcionalidades
 
-* **Arquitetura Modular (Clean Code):** Separação estrita de responsabilidades em arquivos dedicados (`config`, `services`, `types`), facilitando manutenções futuras e isolamento de regras de negócio.
+* **Arquitetura Modular (Clean Code):** Separação estrita de responsabilidades em arquivos dedicados (`config`, `services`, `types`), facilitando manutenções futuras.
 * **Validação Antecipada (Fail-Fast):** O agente valida todas as variáveis obrigatórias do arquivo `.env` no primeiro segundo de inicialização. Se algo estiver ausente, a aplicação interrompe a execução com um erro claro, evitando falhas silenciosas em produção.
 * **Varredura em Alta Performance (Paralelismo Real):** Utiliza `Promise.all` para disparar os testes de ping da internet e de todos os componentes locais ao mesmo tempo. A verificação total nunca ultrapassa o tempo máximo do timeout individual (2 segundos).
 * **Mapeamento Dinâmico por Loja:** O mapeamento de hardware é feito de forma agnóstica através do arquivo `.env`. Lojas que possuem menos equipamentos (como a filial da Tijuca, que conta com apenas 1 totem) são tratadas de forma transparente, ignorando chaves vazias sem quebrar a execução.
